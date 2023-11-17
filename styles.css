@@ -1,0 +1,123 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("backdrop.png") ;
+    background-size: cover;
+    background-position: center;
+    background-color: #0E0E0E;
+    height: 30vh;
+}
+h4 {
+    padding: 1em;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4em;
+    color: #fff;
+}
+
+.search-box {
+    align-self: center;
+}
+
+form {
+    display: flex;
+    margin-bottom:-1em;
+    width: 50vh;
+    position: relative;
+}
+
+form i {
+    color: #777;
+    padding: 0.4em;
+    position: absolute;
+    top:0;
+
+}
+
+input, button {
+    padding: 0.6em 2em;
+    border:1px solid #D1D5DB;
+}
+
+input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    flex-grow: 1;
+    
+}
+button {
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: none;
+}
+
+/**
+* SECTION
+*/
+
+section {
+    padding: 2em;
+    margin-top: 1.6em;
+}
+.card {
+    display:flex;
+    padding: 1em;
+    border-bottom: 1.5px solid #E5E7EB;
+}
+.movie-poster {
+    width: 120px;
+    align-self: center;
+}
+
+.details {
+    margin: 0 0 0 1.2em;
+}
+
+.rating {
+    font-size: 0.8rem;
+}
+.rating-star {
+    margin-left: 1em;
+    margin-right: 0.3em;
+}
+
+.movie-props {
+  display: flex;
+  gap:2em;
+  font-size: 0.75rem;
+}
+
+.add-movie {
+    display:flex;
+    gap:0.3em;
+    justify-content: center;
+    align-items:center ;
+}
+
+.movie-props > p {
+    margin:0;
+    padding:0;
+}
+.movie-plot {
+    color:#6B7280;
+    font-size: 0.875rem;
+    line-height: 1.4em;
+}
