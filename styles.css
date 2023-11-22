@@ -3,6 +3,7 @@ body {
     padding:0;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    background-color: #0E0E0E;
 }
 
 .container {
@@ -68,14 +69,33 @@ button {
     border-bottom-right-radius: 6px;
     border-left: none;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
 /**
 * SECTION
 */
 
-section {
-    padding: 2em;
-    margin-top: 1.6em;
+.start-exploring {
+    display: flex;
+    place-content: center;
+    margin-top: 10vh;
+}
+
+.no-movies{
+    color:#DFDDDD;
+    font-size:1.125rem;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.movies {
+    padding: 4em 2em;
+    background-color: #fff;
+    min-height: 80vh;
+    max-height:fit-content;
 }
 .card {
     display:flex;
